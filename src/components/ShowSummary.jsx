@@ -37,7 +37,7 @@ function SummaryPage() {
       
     >
       <Image
-        boxSize={["200px", "200px", "100%"]}
+        boxSize={["150px", "200px", "300px"]}
         src={show.image?.original}
         alt={show.name}
         borderRadius = "10px"/>
