@@ -30,7 +30,6 @@ function SummaryPage() {
       justifyContent="space-between"
       alignItems={["center", "center", "flex-start"]}
       mt="8"
-      margin="50px 150px 10px 150px"
       border = "1px solid black" 
       borderRadius = "10px"
       p="20px 20px 20px 20px"
@@ -38,7 +37,7 @@ function SummaryPage() {
       
     >
       <Image
-        boxSize={["200px", "200px", "300px"]}
+        boxSize={["200px", "200px", "100%"]}
         src={show.image?.original}
         alt={show.name}
         borderRadius = "10px"/>
