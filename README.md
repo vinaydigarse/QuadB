@@ -1,6 +1,8 @@
 # Apout The Project
 
-## Depoly Link https://quad-six.vercel.app/
+## Depoly Link 
+
+#### https://quad-six.vercel.app/
 ##  Dependencies
 
 
@@ -18,6 +20,7 @@
 
 
 ## Tab Screen 
+#### Home Page
 ![image](./public/Screenshot%202023-04-03%20015830.jpg)
 #### Summary Page
 ![image](./public/Screenshot%202023-04-03%20015712.jpg)
