@@ -14,10 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Chakra UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I Use Chakra UI to make batter UI experience.
+
+`npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion`
 
 ### `npm run build`
 
