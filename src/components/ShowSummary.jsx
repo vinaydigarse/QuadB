@@ -15,7 +15,7 @@ function SummaryPage() {
       .catch(error => console.log(error));
   }, [id]);
   return (
-    <>
+    <Box p={8}>
     <Box>
       <Flex justifyContent="space-between" alignItems="center">
         <Heading size="md">{show.name}</Heading>
@@ -30,12 +30,18 @@ function SummaryPage() {
       justifyContent="space-between"
       alignItems={["center", "center", "flex-start"]}
       mt="8"
+      margin="50px 150px 10px 150px"
+      border = "1px solid black" 
+      borderRadius = "10px"
+      p="20px 20px 20px 20px"
+      boxShadow='md'
+      
     >
       <Image
         boxSize={["200px", "200px", "300px"]}
         src={show.image?.original}
         alt={show.name}
-      />
+        borderRadius = "10px"/>
       <Box
         ml={["0", "0", "8"]}
         mt={["4", "4", "0"]}
@@ -53,7 +59,7 @@ function SummaryPage() {
         </Button>
       </Box>
     </Flex>
-  </>
+  </Box>
   );
 }
 

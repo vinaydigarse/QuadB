@@ -30,7 +30,10 @@ function ShowList() {
   return (
     <>
       <div className="app">
-      <Box>
+      <Box 
+      p="20px 40px 0px 40px"
+      
+      >
       <Flex justifyContent="space-between" alignItems="center">
         <Heading size="md">TV Show App</Heading>
         <Button onClick={toggleColorMode} mt={5}>
@@ -39,10 +42,13 @@ function ShowList() {
       </Flex>
     </Box>
       
-        <Flex justify="center" align="center" direction={["column", "row"]} wrap="wrap">
+        <Flex
+      p="20px 30px 40px 30px"
+        
+        justify="center" align="center" direction={["column", "row"]} wrap="wrap">
         {shows.map((show) => (
-          <Box w={["100%", "45%", "30%"]} rounded="20px" overflow="hidden" bg={colorMode === "dark" ? "gray.700" : "gray.200"} mt={[5, 10]} mx={[0, 3, 5]} key={show.show.id}>
-            <Image src={show.show.image?.original} h={"400px"} w={"100%"} alt=''/>
+          <Box border={"1px solid gray"} rounded={20} pt={"20px"} w={["100%", "45%", "30%"]} bg={colorMode === "dark" ? "white.700" : "white.200"} overflow="hidden" boxShadow='xl' mt={[5, 10]} mx={[0, 3, 5]} key={show.show.id}>
+            <Image borderRadius={10} margin={"auto"} src={show.show.image?.original} h={"300px"} alt=''/>
             <Box p={5}>
               <Stack align="center"><Text fontWeight={900} variant="solid" px={4}>{show.show.name}</Text></Stack>
               <Stack align="center">
