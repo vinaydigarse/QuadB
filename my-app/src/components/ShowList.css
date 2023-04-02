@@ -1,0 +1,12 @@
+#viewBtn{
+    background-color: rgb(80, 80, 223);
+    padding:4px 10px 4px 10px;
+    margin: auto;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#viewBtn:hover{
+    background-color: rgb(79, 79, 134);
+    color: rgb(165, 192, 215);
+} 
